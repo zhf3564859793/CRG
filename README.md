@@ -13,5 +13,6 @@ This is the code for 'Chemical Reaction Reactivity Prediction Based on Similarit
 * xgboost==2.0.3
 * We suggest that you can install these packages by pip.
 
-## 2. Hoe to use
-### 2.1 
+## 2. How to use
+### 2.1 Reaction generation
+You can
