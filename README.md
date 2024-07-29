@@ -15,4 +15,4 @@ This is the code for 'Chemical Reaction Reactivity Prediction Based on Similarit
 
 ## 2. How to use
 ### 2.1 Reaction generation
-You can
+You can find reaction generation part in folder(generate_model). We provide a well trained model uspto_model_v1_epoch60.pth, so you can use it dirctly(we also provided the training dataset “uspto_reaction_smile_aug.txt“,yo can also train a new model).
