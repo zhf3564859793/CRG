@@ -11,7 +11,8 @@ This is the code for 'Chemical Reaction Reactivity Prediction Based on Similarit
 * seaborn==0.13.1
 * tqdm==4.66.1
 * xgboost==2.0.3
-  We suggest that you can install these packages by pip.
+
+We suggest that you can install these packages by pip.
 
 ## 2. How to use
 ### 2.1 Reaction generation
