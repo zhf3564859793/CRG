@@ -20,7 +20,7 @@ You can find reaction generation part in folder(generate_model). We provided a w
 * genarationv6_mult_step.ipynb: it generated new molecules.
 * combine_result_v1.ipynb: it combined new molecules to new reaction based on the reaction template.
 
-### 2.2 correlation evaluation
+### 2.2 Correlation evaluation
 You can find different methods for correlation evaluation.
 
 ### 2.3 Similarity prediction
