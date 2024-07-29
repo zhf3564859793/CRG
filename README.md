@@ -1,7 +1,7 @@
 # CRG
 
 This is the code for 'Chemical Reaction Reactivity Prediction Based on Similarity '  
-## package
+## 1. Package
 * python==3.9.18  
 * numpy==1.26.2  
 * pandas==2.1.1 
@@ -12,3 +12,6 @@ This is the code for 'Chemical Reaction Reactivity Prediction Based on Similarit
 * tqdm==4.66.1
 * xgboost==2.0.3
 * We suggest that you can install these packages by pip.
+
+## 2. Hoe to use
+### 2.1 
