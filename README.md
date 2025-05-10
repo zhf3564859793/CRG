@@ -49,7 +49,7 @@ The **Correlation** Evaluation folder contains a comprehensive evaluation of the
   
 - `ROC_AUC curve.ipynb`: 
 We further assess the predictive capability of these similarity metrics by constructing **Receiver Operating Characteristic (ROC) curves**. In this analysis:
-- Each similarity score is treated as a predictor for classifying reaction reactivity.
+-- Each similarity score is treated as a predictor for classifying reaction reactivity.
 - The **Area Under the ROC Curve (AUC)** is computed to quantify the classification performance, with higher AUC values indicating stronger predictive power.
 - This analysis serves as a measure to evaluate how well the similarity metrics can discriminate between reactive and non-reactive cases.
 
