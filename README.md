@@ -5,6 +5,7 @@ This repository contains the code and resources for **Predicting Similarity to C
 ---
 
 ## 📦 Requirements
+Make sure you have the following packages installed:
 ## 1. Package
 * python==3.9.18  
 * numpy==1.26.2  
@@ -28,4 +29,4 @@ You can find reaction generation part in folder(generate_model). We provided a w
 You can find different methods for correlation evaluation.
 
 ### 2.3 Similarity prediction
-You can find the XGBoost model to predict similarity and the SHAP analysis part.
+You can find the XGBoost model to predict similarity and the SHAP analysis part. We apply SHAP (SHapley Additive exPlanations) to interpret the contribution of each feature in the similarity prediction process. This helps in understanding the model's decision-making and provides transparency in reaction feasibility prediction.
