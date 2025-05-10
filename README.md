@@ -47,7 +47,8 @@ The **Correlation Evaluation** folder contains a comprehensive evaluation of the
 - `correlation evaluation(rxnpfp_cos).ipynb`:  
    This notebook measures the correlation using cosine similarity with RXNFP fingerprints.
   
-- `ROC_AUC curve.ipynb`: 
+- `ROC_AUC curve.ipynb`:
+  We further assess the predictive capability of these similarity metrics by constructing **Receiver Operating Characteristic (ROC) curves**. 
 #### Analysis Details:
    - Each similarity score is treated as a predictor for classifying reaction reactivity.
    - The **Area Under the ROC Curve (AUC)** is computed to quantify the classification performance, with higher AUC values indicating stronger predictive power.
