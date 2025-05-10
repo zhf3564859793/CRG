@@ -30,3 +30,8 @@ You can find different methods for correlation evaluation.
 
 ### 2.3 Similarity prediction
 You can find the XGBoost model to predict similarity and the SHAP analysis part. We apply SHAP (SHapley Additive exPlanations) to interpret the contribution of each feature in the similarity prediction process. This helps in understanding the model's decision-making and provides transparency in reaction feasibility prediction.
+
+## 📄 License
+This project is licensed under the MIT License.
+
+
