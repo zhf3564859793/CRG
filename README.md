@@ -21,7 +21,7 @@ We suggest that you can install these packages by pip.
 
 ## 🚀 How to Use
 ### 2.1 Reaction generation
-You can find reaction generation part in folder(generate_model). We provided a well trained model uspto_model_v1_epoch60.pth, so you can use it dirctly(we also provided the training dataset “uspto_reaction_smile_aug.txt“,yo can also train a new model).
+You can find reaction generation part in folder **(generate_model)**. We provided a well trained model **uspto_model_v1_epoch60.pth**, so you can use it dirctly(we also provided the training dataset **uspto_reaction_smile_aug.tx**,yo can also train a new model).
 * genarationv6_mult_step.ipynb: it generated new molecules.
 * combine_result_v1.ipynb: it combined new molecules to new reaction based on the reaction template.
 
