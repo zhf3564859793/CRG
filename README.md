@@ -1,6 +1,10 @@
-# CRG
+# Predicting Similarity to Closest Known Reactions as a Surrogate for Reactivity
 
-This is the code for 'Chemical Reaction Reactivity Prediction Based on Similarity '  
+This repository contains the code and resources for **Predicting Similarity to Closest Known Reactions as a Surrogate for Reactivity**. The project aims to efficiently evaluate reaction feasibility by leveraging similarity-based metrics and machine learning models.
+
+---
+
+## 📦 Requirements
 ## 1. Package
 * python==3.9.18  
 * numpy==1.26.2  
