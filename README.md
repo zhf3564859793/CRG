@@ -32,6 +32,28 @@ The **Correlation** Evaluation folder contains a comprehensive evaluation of the
 - `correlation evaluation(ASKCOS_augmented_Transformer_score).ipynb`:  
    This notebook evaluates the correlation between the ASKCOS augmented transformer score and the reaction reactivity.
    
+- `correlation evaluation(ASKCOS_fast_filter_score).ipynb`:  
+   This notebook evaluates the ASKCOS fast filter score's correlation with reaction reactivity.
+   
+- `correlation evaluation(MACCS_Dice).ipynb`:  
+   This notebook computes the correlation between the MACCS Dice similarity and reaction activity.
+   
+- `correlation evaluation(Transformercosine).ipynb`:  
+   This notebook assesses the correlation of Transformer-based cosine similarity with reactivity.
+   
+- `correlation evaluation(ecfp_Dice).ipynb`:  
+   This notebook evaluates the Dice similarity for ECFP fingerprints.
+   
+- `correlation evaluation(rxnpfp_cos).ipynb`:  
+   This notebook measures the correlation using cosine similarity with RXNFP fingerprints.
+  
+- `ROC_AUC curve.ipynb`: 
+We further assess the predictive capability of these similarity metrics by constructing **Receiver Operating Characteristic (ROC) curves**. In this analysis:
+- Each similarity score is treated as a predictor for classifying reaction reactivity.
+- The **Area Under the ROC Curve (AUC)** is computed to quantify the classification performance, with higher AUC values indicating stronger predictive power.
+- This analysis serves as a measure to evaluate how well the similarity metrics can discriminate between reactive and non-reactive cases.
+
+   
 
 ### 2.3 Similarity prediction
 You can find the XGBoost model to predict similarity and the SHAP analysis part. We apply SHAP (SHapley Additive exPlanations) to interpret the contribution of each feature in the similarity prediction process. This helps in understanding the model's decision-making and provides transparency in reaction feasibility prediction.
