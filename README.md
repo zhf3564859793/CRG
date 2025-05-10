@@ -26,7 +26,7 @@ You can find reaction generation part in folder **(generate_model)**. We provide
 * combine_result_v1.ipynb: it combined new molecules to new reaction based on the reaction template.
 
 ### 2.2 Correlation evaluation
-You can find different methods for correlation evaluation.
+The Correlation Evaluation folder contains a comprehensive evaluation of the relationship between various reaction similarity measures and reactivity scores. Specifically, we assess the correlation of four different reaction similarity metrics and two reactivity scores provided by ASKCOS mentioned in the paper with the reactivity of 180 manually labeled Suzuki reactions.
 
 ### 2.3 Similarity prediction
 You can find the XGBoost model to predict similarity and the SHAP analysis part. We apply SHAP (SHapley Additive exPlanations) to interpret the contribution of each feature in the similarity prediction process. This helps in understanding the model's decision-making and provides transparency in reaction feasibility prediction.
