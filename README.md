@@ -29,23 +29,23 @@ You can find reaction generation part in folder **(generate_model)**. We provide
 The **Correlation Evaluation** folder contains a comprehensive evaluation of the relationship between various reaction similarity measures and reactivity scores. Specifically, we assess the correlation of four different reaction similarity metrics and two reactivity scores provided by ASKCOS mentioned in the paper with the reactivity of 180 manually labeled Suzuki reactions.
 
 ### Included Files:
+- `correlation evaluation(MACCS_Dice).ipynb`:  
+   This notebook computes the correlation between the MACCS Dice similarity and reaction activity.
+   
+- `correlation evaluation(Transformercosine).ipynb`:  
+   This notebook assesses the correlation of Transformer-based cosine similarity with reaction activity.
+   
+- `correlation evaluation(ecfp_Dice).ipynb`:  
+   This notebook evaluates the correlation between the Dice similarity for ECFP fingerprints and reaction activity.
+   
+- `correlation evaluation(rxnpfp_cos).ipynb`:  
+   This notebook measures the correlation between the RXNFP fingerprints based cosine similarity with reaction activity.
+  
 - `correlation evaluation(ASKCOS_augmented_Transformer_score).ipynb`:  
    This notebook evaluates the correlation between the ASKCOS augmented transformer score and the reaction reactivity.
    
 - `correlation evaluation(ASKCOS_fast_filter_score).ipynb`:  
    This notebook evaluates the ASKCOS fast filter score's correlation with reaction reactivity.
-   
-- `correlation evaluation(MACCS_Dice).ipynb`:  
-   This notebook computes the correlation between the MACCS Dice similarity and reaction activity.
-   
-- `correlation evaluation(Transformercosine).ipynb`:  
-   This notebook assesses the correlation of Transformer-based cosine similarity with reactivity.
-   
-- `correlation evaluation(ecfp_Dice).ipynb`:  
-   This notebook evaluates the Dice similarity for ECFP fingerprints.
-   
-- `correlation evaluation(rxnpfp_cos).ipynb`:  
-   This notebook measures the correlation using cosine similarity with RXNFP fingerprints.
   
 - `ROC_AUC curve.ipynb`:
   We further assess the predictive capability of these similarity metrics by constructing **Receiver Operating Characteristic (ROC) curves**. 
