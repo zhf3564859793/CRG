@@ -26,7 +26,7 @@ You can find reaction generation part in folder **(generate_model)**. We provide
 * combine_result_v1.ipynb: it combined new molecules to new reaction based on the reaction template.
 
 ### 2.2 Correlation evaluation
-The **Correlation Evaluation** folder contains a comprehensive evaluation of the relationship between various reaction similarity measures and reactivity scores. Specifically, we assess the correlation of four different reaction similarity metrics and two reactivity scores provided by ASKCOS mentioned in the paper with the reactivity of 180 manually labeled Suzuki reactions.
+The **Correlation Evaluation** folder contains a comprehensive evaluation of the relationship between various reaction similarity measures and reaction reactivity. Specifically, we assess the correlation of four different reaction similarity metrics and two reactivity scores provided by ASKCOS mentioned in the paper with the reactivity of 180 manually labeled Suzuki reactions.
 
 ### Included Files:
 - `correlation evaluation(MACCS_Dice).ipynb`:  
@@ -53,8 +53,6 @@ The **Correlation Evaluation** folder contains a comprehensive evaluation of the
    - Each similarity score is treated as a predictor for classifying reaction reactivity.
    - The **Area Under the ROC Curve (AUC)** is computed to quantify the classification performance, with higher AUC values indicating stronger predictive power.
    - This analysis serves as a measure to evaluate how well the similarity metrics can discriminate between reactive and non-reactive cases.
-
-   
 
 ### 2.3 Similarity prediction
 You can find the XGBoost model to predict similarity and the SHAP analysis part. We apply SHAP (SHapley Additive exPlanations) to interpret the contribution of each feature in the similarity prediction process. This helps in understanding the model's decision-making and provides transparency in reaction feasibility prediction.
