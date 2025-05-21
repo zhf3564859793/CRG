@@ -2,6 +2,8 @@
 
 This repository contains the code and resources for **Predicting Similarity to Closest Known Reactions as a Surrogate for Reactivity**. The project aims to efficiently evaluate reaction feasibility by leveraging similarity-based metrics and machine learning models.
 
+![image](https://github.com/zhf3564859793/CRG/tree/main/Figure)
+
 ---
 
 ## 📦 1. Requirements
