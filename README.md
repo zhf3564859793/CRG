@@ -54,6 +54,9 @@ The **Correlation Evaluation** folder contains a comprehensive evaluation of the
    - The **Area Under the ROC Curve (AUC)** is computed to quantify the classification performance, with higher AUC values indicating stronger predictive power.
    - This analysis serves as a measure to evaluate how well the similarity metrics can discriminate between reactive and non-reactive cases.
 
+#### Note:
+The Suzuki reaction data used for calculating reaction similarity can be obtained from the Pistachio database. However, since Pistachio is a commercial database, we are unable to provide the dataset directly.
+
 ### 2.3 Similarity prediction
 You can find the XGBoost model to predict similarity and the SHAP analysis part. We apply SHAP (SHapley Additive exPlanations) to interpret the contribution of each feature in the similarity prediction process. This helps in understanding the model's decision-making and provides transparency in reaction feasibility prediction.
 
