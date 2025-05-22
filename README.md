@@ -62,6 +62,9 @@ The Suzuki reaction data used for calculating reaction similarity can be obtaine
 ### 2.3 Similarity prediction
 You can find the XGBoost model to predict similarity and the SHAP analysis part. We apply SHAP (SHapley Additive exPlanations) to interpret the contribution of each feature in the similarity prediction process. This helps in understanding the model's decision-making and provides transparency in reaction feasibility prediction.
 
+#### Note:
+The data used to train our XGBoost model is provided at new_generated_suzuki_with_maccs_sim_true_structure.pkl .
+
 ## 📄 3. License
 This project is licensed under the MIT License.
 
